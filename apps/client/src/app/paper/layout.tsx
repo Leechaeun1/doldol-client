@@ -7,7 +7,7 @@ interface Props {
 
 const PaperLayout = async ({ children }: Props) => {
   return (
-    <CommonLayout isFullWidth uplink="/my-page">
+    <CommonLayout isFullWidth uplink="/paper">
       {children}
     </CommonLayout>
   );
